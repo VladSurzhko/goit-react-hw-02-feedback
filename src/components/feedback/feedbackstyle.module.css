@@ -1,0 +1,59 @@
+.section{
+background-color: azure;
+   
+}
+
+
+.title{
+    margin: 0px;
+    margin-bottom: 40px;
+    font-weight: 600; 
+    font-size: 40px;
+    color: rgb(150, 24, 28);   
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.item{
+margin-right: 30px;
+margin-bottom: 30px;
+    
+}
+.btn{
+    color: black;
+width: 100px;
+height: 70px; 
+border: 2px solid rgb(150, 24, 28);
+border-radius: 15px;
+cursor: pointer; 
+}
+.btn:hover{
+background-color: grey;
+color: white;    
+}
+
+.titleTwo{
+    font-size: 40px;
+    color: rgb(164, 20, 20);   
+}
+.lists{
+margin-bottom: 10px;
+list-style: none;    
+}
+
+.itemsy{
+margin-bottom: 10px;
+font-size: 25px;
+color: darkseagreen;    
+}
+.items{
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: darkolivegreen;
+}
+.message{
+    font-size: 25px;   
+}

@@ -42,8 +42,8 @@ class Feedback extends Component {
         const positivePercentage = this.feedbackPercentage();
 
         return (
-            <div className={style.block}>
-              <div className={style.blockTwo}>
+            <div className={style.section}>
+              <div className={style.sectionTwo}>
                 <h2 className={style.title}>Please leave feedback</h2>
                 <ul className={style.list}>
                   <li className={style.item}>
@@ -68,10 +68,10 @@ class Feedback extends Component {
                 <div className={style.blockThree}>
                   <ul className={style.lists}>
                     <li className={style.itemsy}>Good: {good}</li>
-                    <li className={style.items}>Neutral: {neutral}</li>
+                    <li className={style.itemsy}>Neutral: {neutral}</li>
                     <li className={style.itemsy}>Bad: {bad}</li>
                     <li className={style.items}>Total feedback: {totalFeed}</li>
-                    <li className={style.itemsy}>Positive feedback percentage: {positivePercentage}%</li>
+                    <li className={style.items}>Positive feedback percentage: {positivePercentage}%</li>
                   </ul>
                 </div>
               ) : (
